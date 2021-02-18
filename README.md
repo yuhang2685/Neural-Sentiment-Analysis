@@ -6,11 +6,11 @@ The dataset is Sentiment140, which is a collection of 1.6 million tweets that ha
 
 GloVe is available for download from Stanford. We use "100 dimension" version in "glove.6B.zip".
 
-We build a simple LSTM Neural Network for illustrating how Sentiment Analysis work with word vector representations (GloVe).
+We constructed a simple LSTM Neural Network as below:
 
 ![Figure](model-summary.png)
 
-Our simple 4 level LSTM model achieves 70% accuracy.
+Our simple 4 layer LSTM model achieves 70% accuracy.
 
 ![Figure](performance.png)
 
