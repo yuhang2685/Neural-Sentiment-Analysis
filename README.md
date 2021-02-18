@@ -46,6 +46,6 @@ Comparison with "state-of-the-art" techniques:
 ## Future Work
 
 We will continue to explore how to improve the accuracy,
-such as data cleaning, stemming, URL, handle, transfer learning the word embedding etc..
+such as more complexed NN, data cleaning, stemming, removing URL, removing handle, replacing emoji with word, transfer learning the word embedding etc..
 
 
