@@ -4,7 +4,7 @@
 
 ## Introduction
 
-We demonstrate how to use [GloVe](https://www.aclweb.org/anthology/D14-1162/) word vector representations in Sentiment Analysis.
+We experiment how to use [GloVe](https://www.aclweb.org/anthology/D14-1162/) word vector representations in Sentiment Analysis.
 
 The dataset is [Sentiment140](http://www.sentiment140.com/), 
 which is a collection of 1.6 million tweets that have been tagged as either positive or negative.
@@ -35,17 +35,19 @@ Comparison with "state-of-the-art" techniques:
    - accuracy - 83%    
    - training - very long
 
-3. Lexicon & Rule-based
+3. [Lexicon & Rule-based](https://github.com/cjhutto/vaderSentiment)
    - accuracy - 80%    
    - labor consuming
    
-4. Bayers: 
+4. [Naive Bayes](https://github.com/vivekn/sentiment): 
    - accuracy - 70% ~ 80%   
    - fast execution
 
 ## Future Work
 
 We will continue to explore how to improve the accuracy,
-such as more complexed NN, data cleaning, stemming, removing URL, removing handle, replacing emoji with word, transfer learning the word embedding etc..
+which includes applying various pre-processing steps like URLs, handles, Hashtags, punctuations, emoticons, twitter specific terms and stemming,
+investigating the following features - unigrams, bigrams, trigrams and negation detection,
+experiment with transfer learning sophisticated Neural Networks.
 
 
