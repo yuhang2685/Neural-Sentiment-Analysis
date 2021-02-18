@@ -21,6 +21,6 @@ Comparison with "state-of-the-art" techniques:
 2. SVM: accuracy 85% but longer to train.
 
 We will continue to explore how to improve the accuracy,
-such as data cleaning, stem etc..
+such as data cleaning, stem, transfer learning the word embedding etc..
 
 
