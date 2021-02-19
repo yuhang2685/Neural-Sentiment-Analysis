@@ -50,4 +50,8 @@ investigating the following features - unigrams, bigrams, trigrams and negation 
 
 We will also experiment with transfer learning sophisticated Neural Networks, such as Attension Model.
 
+## Reference
 
+- [GloVe: Global Vectors for Word Representation](https://www.aclweb.org/anthology/D14-1162/)
+- [VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text](https://www.researchgate.net/publication/275828927_VADER_A_Parsimonious_Rule-based_Model_for_Sentiment_Analysis_of_Social_Media_Text)
+- [Fast and accurate sentiment classification using an enhanced Naive Bayes model](https://arxiv.org/abs/1305.6143)
