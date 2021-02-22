@@ -15,12 +15,30 @@ We use the "100 dimension" version in "glove.6B.zip".
 ## Neural Network
 
 We constructed a simple LSTM Neural Network as below:
-
-<img src="model-summary.png" width="50%">
-
+```
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_4 (Embedding)      (None, 16, 100)           7648500   
+_________________________________________________________________
+bidirectional_7 (Bidirection (None, 16, 256)           234496    
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 16, 256)           0         
+_________________________________________________________________
+bidirectional_8 (Bidirection (None, 256)               394240    
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 256)               0         
+_________________________________________________________________
+dense_7 (Dense)              (None, 1)                 257       
+=================================================================
+Total params: 8,277,493
+Trainable params: 8,277,493
+Non-trainable params: 0
+```
 ## Performance
 
-Our simple 4 layer LSTM model achieves 70% accuracy.
+Our simple LSTM model achieves 70% accuracy.
 
 ![Figure](performance.png)
 
@@ -42,6 +60,10 @@ Our simple 4 layer LSTM model achieves 70% accuracy.
    - accuracy - 70% ~ 80%   
    - fast execution
 
+5. Our simple LSTM:
+   - accuracy - 70%    
+   - training - fast
+   
 ## Future Work
 
 We will continue to explore how to improve the accuracy,
