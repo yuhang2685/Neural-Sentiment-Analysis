@@ -38,7 +38,7 @@ Non-trainable params: 0
 ```
 ## Performance
 
-Our simple LSTM model achieves 70% accuracy.
+Our simple LSTM model quickly achieves 99% training accuracy, with 70% validation accuracy.
 
 ![Figure](performance.png)
 
