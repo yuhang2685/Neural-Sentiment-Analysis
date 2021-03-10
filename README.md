@@ -1,10 +1,10 @@
-# Sentiment-Analysis
+# Neural-Sentiment-Analysis
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## Introduction
 
-We experiment how to use Neural Network and [GloVe](https://www.aclweb.org/anthology/D14-1162/) word vector representations for Sentiment Analysis.
+We explore how to use Neural Network and [GloVe](https://www.aclweb.org/anthology/D14-1162/) Word Vector Representations for Sentiment Analysis. Although statics models still outperform Neural Network models by now, we believe Neural Networks will improve the accuracy and functionality of NLP semantics analysis soon.
 
 The dataset is [Sentiment140](http://www.sentiment140.com/), 
 which is a collection of 1.6 million tweets that have been tagged as either positive or negative.
@@ -39,6 +39,7 @@ Non-trainable params: 0
 ## Performance
 
 Our simple LSTM model quickly achieves 99% training accuracy, with 70% validation accuracy.
+We see the accuracy is not acceptable, and would try to improve it.
 
 ![Figure](performance.png)
 
