@@ -48,6 +48,7 @@ We see the accuracy is not acceptable, and would try to improve it.
 1. SVM: 
    - accuracy - 85%    
    - training - very long
+   - no probability estimation
 
 2. Maximum Entropy
    - accuracy - 83%    
