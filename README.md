@@ -80,7 +80,7 @@ To improve the accuracy,
 [ayushoriginal](https://github.com/ayushoriginal/Sentiment-Analysis-Twitter) suggested applying various pre-processing steps like URLs, handles, Hashtags, punctuations, emoticons, twitter specific terms and stemming,
 investigating the following features - unigrams, bigrams, trigrams and negation detection.
 
-The article [6 Practices to enhance the performance of a Text Classification Model](https://www.analyticsvidhya.com/blog/2015/10/6-practices-enhance-performance-text-classification-model/) suggested the following strateges:
+Similarly, the article [6 Practices to enhance the performance of a Text Classification Model](https://www.analyticsvidhya.com/blog/2015/10/6-practices-enhance-performance-text-classification-model/) suggested the following strateges:
 
 1. Domain Specific Features in the Corpus
    
